@@ -4,19 +4,21 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="header">
+        header
+        <button className="">
+          Insert Random Key
+        </button>
+        <button>
+            Insrt(Key)
+        </button>
+        <button>
+            Find(Key)
+        </button>
+        <button>
+            Delete(Key)
+        </button>
+        <span>Key = <input id="input_vlaue" type="number" placeholder="Enter a Number"></input></span>
       </header>
     </div>
   );
